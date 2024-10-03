@@ -178,6 +178,7 @@ nav ul li .dropdown2:hover {
   nav ul li {
     margin-block: 25px;
     margin-left: 25px;
+    line-height: 1rem;
   }
 
   nav ul li a {
