@@ -61,5 +61,6 @@ section {
 @media (max-width: 768px) {
   .home_main {
     flex-direction: column;
+    max-width: 90%;
   }
 }

@@ -14,6 +14,116 @@ const People = () => {
           subtitle: "",
         }}
       />
+      <section>
+        <div className="people_main">
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>B Muthuraman</h3>
+            <h4>Chairman, Governing Council</h4>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://lh5.googleusercontent.com/jR7l3Ylwe-zg1eiU7spLY46o45jOXle8sFb0VctjBdqQUDc59mSfaG2qsxoe6v9yeYl7FnsxA-3WClaJUQXZjV3Te0o03gyHTWibV-eRntZd_7qdsYf1oyPAsJjnsAC7JA=w1280"
+              alt=""
+            />
+            <h3>Dr Subhashish Tripathy</h3>
+            <h4>Director</h4>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="people_main">
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Cedric Diggory</h3>
+            <h4>Registrar</h4>
+          </div>
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Dr B M Rajprakash</h3>
+            <h4>Dean of Engineering</h4>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Horace Slughorn</h3>
+            <h4>Finance Officer</h4>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="people_main">
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Severus Snape</h3>
+            <h4>Finance Officer</h4>
+          </div>
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Dr B P Harish</h3>
+            <h4>Controller of Examinations</h4>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>Prof H S Veena</h3>
+            <h4>Dy Controller of Examinations</h4>
+          </div>
+        </div>
+      </section>
+
+      <section className="last-section">
+        <h3>Staff</h3>
+        <div className="people_main">
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>B Muthuraman</h3>
+          </div>
+          <div className="left_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>B Muthuraman</h3>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>B Muthuraman</h3>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+              alt=""
+            />
+            <h3>B Muthuraman</h3>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
