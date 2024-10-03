@@ -3,6 +3,7 @@ import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import { FaChevronRight } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -36,6 +37,9 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/departments">Departments</NavLink>
+
+            <FaChevronRight className="sub-menu" />
+
             <ul className="dropdown">
               <li>
                 <a href="#">Department of CS</a>
@@ -59,6 +63,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/students">Students</NavLink>
+            <FaChevronRight className="sub-menu" />
             <ul className="dropdown">
               <li>
                 <a href="#">Academics</a>
@@ -87,7 +92,8 @@ const Navbar = () => {
             <NavLink to="/notifications">Notifications</NavLink>
           </li>
           <li>
-            <NavLink to="/about">SEB UVCE ▼</NavLink>
+            <NavLink to="/about">SEB UVCE</NavLink>
+            <FaChevronRight className="sub-menu" />
             <ul className="dropdown2">
               <li>
                 <a href="#">Rahul S.R - Chairman SEB</a>
