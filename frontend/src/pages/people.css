@@ -15,26 +15,30 @@
 }
 
 .people_main .right_item h4,
-.people_main .left_item h4 {
+.people_main .left_item h4,
+.banner .slider h4 {
   text-align: center;
   color: gray;
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-weight: 600;
 }
 
+.banner .slider h3,
 .people_main .left_item h3,
 .people_main .right_item h3 {
   text-align: center;
   color: gray;
-  line-height: 3rem;
+  line-height: 1.5rem;
   font-weight: 800;
 }
 
 .people_main .right_item img,
-.people_main .left_item img {
+.people_main .left_item img,
+.banner .slider img {
   width: 100%;
 }
 
+.banner .slider img:hover,
 .people_main .left_item img:hover,
 .people_main .right_item img:hover {
   scale: 1.05;
@@ -48,8 +52,80 @@
   font-size: 25px;
 }
 
+.banner {
+  width: 100%;
+  height: 120vh;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner .slider {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  top: 10%;
+  left: calc(50% - 100px);
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  animation: autoRun 20s linear infinite;
+  z-index: 2;
+}
+
+@keyframes autoRun {
+  from {
+    transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+  }
+  to {
+    transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+  }
+}
+
+.banner .slider .item {
+  position: absolute;
+  inset: 0 0 0 0;
+  transform: rotateY(
+      calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
+    )
+    translateZ(550px);
+}
+
+.banner .slider .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .people_main {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .banner .slider {
+    width: 160px;
+    height: 200px;
+    left: calc(50% - 80px);
+  }
+  .banner .slider .item {
+    transform: rotateY(
+        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
+      )
+      translateZ(300px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner .slider {
+    width: 100px;
+    height: 150px;
+    left: calc(50% - 50px);
+  }
+  .banner .slider .item {
+    transform: rotateY(
+        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
+      )
+      translateZ(180px);
   }
 }
