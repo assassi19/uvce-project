@@ -1,8 +1,6 @@
 .HeroSection {
   background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  z-index: -12;
+  position: relative;
   height: 50vh;
   width: 100%;
   display: flex;

@@ -1,0 +1,34 @@
+.swiper {
+  width: 100%;
+  height: 60vh;
+  box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide img:hover {
+  scale: 1.2;
+  transition: 0.2s linear;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #fff;
+}

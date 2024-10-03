@@ -7,10 +7,14 @@
 
 nav {
   height: 60px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 2rem;
+  position: absolute;
+  top: 0%;
+  z-index: 10;
 }
 
 nav .logo {
