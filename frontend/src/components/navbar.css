@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 2rem;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+nav .logo span {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+nav .logo img {
+  width: 80px;
+  height: 45px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0px 5px;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: #1b1b1b;
+  background-color: white;
+}
+
+.active {
+  color: #1b1b1b;
+  background-color: white;
+}
+
+.hamburger,
+.cancel {
+  color: white;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+#click {
+  display: none;
+}
+
+.dropdown {
+  background-color: #111;
+  width: 250px;
+  position: absolute;
+  margin-top: 1.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  display: none;
+  border-radius: 1rem;
+}
+
+.dropdown2 {
+  background-color: #111;
+  width: 150px;
+  position: absolute;
+  margin-top: 1.5rem;
+  padding: 1rem 0rem 1rem 1rem;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  display: none;
+  border-radius: 1rem;
+}
+
+nav ul li:hover .dropdown2,
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+.dropdown li a {
+  color: white;
+}
+
+.dropdown li a:hover,
+.dropdown2 li a:hover {
+  color: aqua;
+  background: none;
+}
+
+@media (max-width: 1280px) {
+  .hamburger {
+    display: block;
+    opacity: 1;
+    position: absolute;
+  }
+
+  .cancel {
+    display: block;
+    opacity: 0;
+    z-index: 10;
+  }
+
+  nav {
+    justify-content: flex-start;
+    column-gap: 1rem;
+    padding-inline: 1rem;
+  }
+
+  nav .logo span {
+    display: none;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 230px;
+    display: block;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    padding-top: 3rem;
+  }
+
+  #click:checked ~ ul {
+    left: 0%;
+  }
+
+  #click:checked ~ .cancel {
+    opacity: 1;
+  }
+
+  #click:checked ~ .hamburger {
+    opacity: 0;
+  }
+
+  nav ul li {
+    margin-block: 25px;
+    margin-left: 25px;
+  }
+
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: cyan;
+    background: none;
+  }
+
+  .dropdown,
+  .dropdown2 {
+    left: 50%;
+    transform: translateX(-50%);
+    height: max-content;
+    width: 200px;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+  .dropdown2 {
+    width: 150px;
+  }
+}
