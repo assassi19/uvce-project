@@ -1,6 +1,7 @@
 import React from "react";
 import "./people.css";
 import Hero from "../components/hero";
+import Slider2 from "../components/slider2";
 
 const People = () => {
   return (
@@ -34,39 +35,20 @@ const People = () => {
           </div>
         </div>
       </section>
+
       <section className="last-section">
         <h3>Staff</h3>
-        <div className="people_main">
-          <div className="left_item">
-            <img
-              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
-              alt=""
-            />
-            <h3>B Muthuraman</h3>
-          </div>
-          <div className="left_item">
-            <img
-              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
-              alt=""
-            />
-            <h3>B Muthuraman</h3>
-          </div>
-          <div className="right_item">
-            <img
-              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
-              alt=""
-            />
-            <h3>B Muthuraman</h3>
-          </div>
-          <div className="right_item">
-            <img
-              src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
-              alt=""
-            />
-            <h3>B Muthuraman</h3>
-          </div>
-        </div>
+        <Slider2
+          slides={[
+            "https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280",
+            "https://lh4.googleusercontent.com/EACI6SaJJGtokx2cnaaxEdvf9TBUW_iwxqvTWi5s7v3o6QAes-nXXll-aPFUNoYcJj-J4U5R2L-XB-hYR217LPNMFzc8EY82QshCUgX_i6QquFpRJKz-zMazPQT7rIwU=w1280",
+            "https://lh5.googleusercontent.com/UbHdgtZ1KmtloviYtJZWM_1Ie-_nO0JpNzEW3QrX4LELQ5xPNZEqPueLnfoXmNDKGND9CoMw7VkHRPMLoLNwe0DjZFjq_1wXcqTd17_4FjanhI3NLY0LV57ZrPRCdNC_lA=w1280",
+            "https://lh4.googleusercontent.com/Ll9C1FH25DfH6oxWgNOEo7lJocQV1TVlKdiDqiPTD_XNOVlyuM4RsiVQUAwY3Hngyb7ihukGPpU7Dke4TZkmDKX6s0ROM2Lgl8xSTcq3URoOjuf0z8U6MkViS7UtIh2C4g=w1280",
+            "https://lh4.googleusercontent.com/Ll9C1FH25DfH6oxWgNOEo7lJocQV1TVlKdiDqiPTD_XNOVlyuM4RsiVQUAwY3Hngyb7ihukGPpU7Dke4TZkmDKX6s0ROM2Lgl8xSTcq3URoOjuf0z8U6MkViS7UtIh2C4g=w1280",
+          ]}
+        />
       </section>
+
       <section class="banner">
         <div class="slider" style={{ "--quantity": 10 }}>
           <div class="item" style={{ "--position": 1 }}>
