@@ -7,9 +7,7 @@ const Home = () => {
   return (
     <>
       <Hero
-        imageURL={
-          "https://lh3.googleusercontent.com/hPfa4-uwISfn3jcVRr8_aqMuzL1alynxMiHSEDf8dUY9wxNcpT3R_2L4tiTZ98hMLPno9-fcPYYsXtaX8Fh1KRg=w16383"
-        }
+        imageURL={"../../public/images/home.jpg"}
         data={{
           title: "U V C E",
           subtitle: "University of Visvesvaraya College of Engineering",
@@ -19,8 +17,9 @@ const Home = () => {
         <div className="home_main">
           <div className="left_part">
             <img
-              src="https://lh3.googleusercontent.com/RRvifd5RU_eZjYi9TLvIWl24zzs6s-Mn-kxDpbcOsepFzQrGaDWBF3OmIWuYPQVKeNCEpQaS1jzMuTkMtfzDIuNBK-qcjYE7vfhmiei8LbG_QMsVbq2mUkpt7-l7NqaAAA=w1280"
+              src="../../public/images/home_1.jpg"
               alt="image1"
+              className="home-section-imageclass"
             />
           </div>
           <div className="right_part">
@@ -43,10 +42,7 @@ const Home = () => {
               substantial progress for the welfare of the society throughout the
               world.
             </p>
-            <img
-              src="https://lh4.googleusercontent.com/bEaBMxTlQzz05GlElqI_PzJ-XYJ7QF6D8QS7tTsSkwH3buxZcHRrAAJDRkleUxIda-qesVH8nsaD1J-_r2NOck9sCT70iZgslkzsL0PGQneliWSA-Lq3O88bIwPprlGURg=w1280"
-              alt="image2"
-            />
+            <img src="../../public/images/home_2.png" alt="image2" />
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ const Hero = ({ imageURL, data }) => {
   };
 
   return (
-    <section className="HeroSection" style={sectionStyle}>
+    <section className="HeroSection" id="image-section" style={sectionStyle}>
       <div>
         <h1>{data.title || "U V C E"}</h1>
         <p>{data.subtitle || ""}</p>

@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import { IoSearchSharp } from "react-icons/io5";
 import { FaChevronRight } from "react-icons/fa";
 
 const Navbar = () => {
@@ -37,44 +38,9 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/departments">Departments</NavLink>
-
-            <FaChevronRight className="sub-menu" />
-
-            <ul className="dropdown">
-              <li>
-                <a href="#">Department of CS</a>
-              </li>
-              <li>
-                <a href="#">Department of EC</a>
-              </li>
-              <li>
-                <a href="#">Department of Mech</a>
-              </li>
-              <li>
-                <a href="#">Department of civil</a>
-              </li>
-              <li>
-                <a href="#">Department of ECE</a>
-              </li>
-              <li>
-                <a href="#">Department of Archi</a>
-              </li>
-            </ul>
           </li>
           <li>
             <NavLink to="/students">Students</NavLink>
-            <FaChevronRight className="sub-menu" />
-            <ul className="dropdown">
-              <li>
-                <a href="#">Academics</a>
-              </li>
-              <li>
-                <a href="#">Competitons</a>
-              </li>
-              <li>
-                <a href="#">Clubs</a>
-              </li>
-            </ul>
           </li>
           <li>
             <NavLink to="/placements">Placements</NavLink>
@@ -93,12 +59,9 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/about">SEB UVCE</NavLink>
-            <FaChevronRight className="sub-menu" />
-            <ul className="dropdown2">
-              <li>
-                <a href="#">Rahul S.R - Chairman SEB</a>
-              </li>
-            </ul>
+          </li>
+          <li>
+            <IoSearchSharp className="search-icon" />
           </li>
         </ul>
       </nav>

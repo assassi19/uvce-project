@@ -12,9 +12,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-inline: 2rem;
-  position: absolute;
+  position: fixed;
   top: 0%;
   z-index: 10;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
 }
 
 nav .logo {
@@ -47,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-size: 15px;
   font-weight: 600;
@@ -56,14 +57,15 @@ nav ul li a {
   border-radius: 5px;
 }
 
-nav ul li a:hover {
-  color: #1b1b1b;
-  background-color: white;
+nav ul li a:hover,
+nav ul li a.active {
+  color: rgba(255, 255, 255, 1);
 }
 
-.active {
-  color: #1b1b1b;
-  background-color: white;
+.search-icon {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
 }
 
 .hamburger,
@@ -76,59 +78,6 @@ nav ul li a:hover {
 
 #click {
   display: none;
-}
-
-.dropdown {
-  background-color: #111;
-  width: 250px;
-  position: absolute;
-  padding: 1rem 1rem 1rem 1rem;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-  display: none;
-  border-radius: 1rem;
-}
-
-.dropdown2 {
-  background-color: #111;
-  width: 150px;
-  position: absolute;
-  padding: 1rem 0rem 1rem 1rem;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-  display: none;
-  border-radius: 1rem;
-}
-
-nav ul li:hover .dropdown2,
-nav ul li:hover .dropdown,
-nav ul li .dropdown:hover,
-nav ul li .dropdown2:hover {
-  display: block;
-}
-
-.dropdown li a {
-  color: white;
-  border-radius: 0 20px;
-}
-
-.dropdown li a:hover {
-  color: #111;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.dropdown2 li a:hover {
-  color: aqua;
-  background: none;
-}
-
-.sub-menu {
-  color: white;
-  transform: translateY(20%);
 }
 
 @media (max-width: 1280px) {
@@ -164,7 +113,7 @@ nav ul li .dropdown2:hover {
     display: block;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   #click:checked ~ ul {
@@ -180,55 +129,24 @@ nav ul li .dropdown2:hover {
   }
 
   nav ul li {
-    margin-block: 25px;
-    margin-left: 20px;
+    padding-block: 1rem;
+    margin-left: 2rem;
     padding-right: 10px;
     line-height: 0.5rem;
   }
 
   nav ul li a {
-    display: block;
-    padding-block: 0.7rem;
     border-radius: 0 15px;
     transition: 0.4s ease;
+    color: rgba(220, 220, 220, 0.5);
   }
 
   nav ul li a:hover,
   nav ul li a.active {
-    color: black;
-    background: rgba(255, 255, 255, 0.9);
+    color: rgba(220, 220, 220, 0.95);
   }
 
-  .dropdown,
-  .dropdown2 {
-    left: 50%;
-    transform: translateX(30%);
-    background: #262627;
-    height: max-content;
-    width: 200px;
-    padding: 1rem 0rem 1rem 0rem;
-  }
-  .dropdown2 {
-    width: 150px;
-  }
-
-  .dropdown li a,
-  .dropdown2 li a {
-    border-radius: 0 20px;
-  }
-
-  .dropdown li a:hover {
-    color: #111;
-    background: rgba(255, 255, 255, 0.9);
-  }
-
-  .sub-menu {
-    color: white;
-    padding-top: 5px;
-    position: absolute;
-    right: 10px;
-    font-size: 17px;
-    cursor: pointer;
-    transform: translateY(-150%);
+  .search-icon {
+    display: none;
   }
 }
