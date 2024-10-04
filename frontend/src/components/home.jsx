@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <>
       <Hero
-        imageURL={"../../public/images/home.jpg"}
+        imageURL={
+          "https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg"
+        }
         data={{
           title: "U V C E",
           subtitle: "University of Visvesvaraya College of Engineering",
@@ -17,7 +19,7 @@ const Home = () => {
         <div className="home_main">
           <div className="left_part">
             <img
-              src="https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg"
+              src="../../public/images/home_1.jpg"
               alt="image1"
               className="home-section-imageclass"
             />
@@ -42,7 +44,7 @@ const Home = () => {
               substantial progress for the welfare of the society throughout the
               world.
             </p>
-            <img src="../../public/images/home_2.png" alt="image2" />
+            <img src="../../public/images/home_2.jpg" alt="image2" />
           </div>
         </div>
       </section>
