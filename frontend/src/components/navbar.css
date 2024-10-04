@@ -181,12 +181,15 @@ nav ul li .dropdown2:hover {
 
   nav ul li {
     margin-block: 25px;
-    margin-left: 25px;
-    line-height: 1rem;
+    margin-left: 20px;
+    padding-right: 10px;
+    line-height: 0.5rem;
   }
 
   nav ul li a {
-    border-radius: 0 20px;
+    display: block;
+    padding-block: 0.7rem;
+    border-radius: 0 15px;
     transition: 0.4s ease;
   }
 
@@ -226,5 +229,6 @@ nav ul li .dropdown2:hover {
     right: 10px;
     font-size: 17px;
     cursor: pointer;
+    transform: translateY(-150%);
   }
 }
