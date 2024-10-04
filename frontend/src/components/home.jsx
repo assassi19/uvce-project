@@ -17,7 +17,7 @@ const Home = () => {
         <div className="home_main">
           <div className="left_part">
             <img
-              src="../../public/images/home_1.jpg"
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg"
               alt="image1"
               className="home-section-imageclass"
             />

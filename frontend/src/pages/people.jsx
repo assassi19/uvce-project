@@ -7,7 +7,9 @@ const People = () => {
   return (
     <>
       <Hero
-        imageURL={"../../public/images/home.jpg"}
+        imageURL={
+          "https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg"
+        }
         data={{
           title: "People",
           subtitle: "",
