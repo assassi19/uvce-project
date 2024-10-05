@@ -22,7 +22,7 @@
   color: white;
   font-family: "Inconsolata", monospace;
   font-size: 25px;
-  z-index: 200;
+  z-index: 1;
 }
 
 .sec img {
