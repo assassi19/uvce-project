@@ -37,8 +37,10 @@ export default function Slider2({ slides }) {
       >
         {slides.map((slide) => (
           <SwiperSlide>
-            <div className="right_item">
-              <img src={slide} />
+            <div className="card">
+              <img src={slide.url} className="slide-image" />
+              <h4>{slide.name || "Name"}</h4>
+              <h5>{slide.title || "title"}</h5>
             </div>
           </SwiperSlide>
         ))}

@@ -18,7 +18,7 @@ const People = () => {
       <section className="people-first-section">
         <div className="first-section">
           <img
-            src="https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280"
+            src="https://res.cloudinary.com/duozomapm/image/upload/v1728099339/vangoghmuseum-s0097V1962v-800_qlcqlc.jpg"
             alt=""
             className="imageclass"
           />
@@ -31,7 +31,7 @@ const People = () => {
 
         <div className="first-section">
           <img
-            src="https://lh5.googleusercontent.com/jR7l3Ylwe-zg1eiU7spLY46o45jOXle8sFb0VctjBdqQUDc59mSfaG2qsxoe6v9yeYl7FnsxA-3WClaJUQXZjV3Te0o03gyHTWibV-eRntZd_7qdsYf1oyPAsJjnsAC7JA=w1280"
+            src="https://res.cloudinary.com/duozomapm/image/upload/v1728099387/vangoghmuseum-s0065V1962-800_xjut4d.jpg"
             alt=""
             className="imageclass"
           />
@@ -45,13 +45,78 @@ const People = () => {
       <section className="last-section">
         <Slider2
           slides={[
-            "https://lh4.googleusercontent.com/czZMjzm0fQnxTlbSwIAWm-zk4DnwaC4qM2Tv1MzSgAhMyCkeg-QKV3rDC4y2b4TxB69WUGTrUjTX69_OXKZ-g5Amh4Or-pjkj0ff91AJ1BgAEgqQxq6vvtwTcwSZNJV1mA=w1280",
-            "https://lh4.googleusercontent.com/EACI6SaJJGtokx2cnaaxEdvf9TBUW_iwxqvTWi5s7v3o6QAes-nXXll-aPFUNoYcJj-J4U5R2L-XB-hYR217LPNMFzc8EY82QshCUgX_i6QquFpRJKz-zMazPQT7rIwU=w1280",
-            "https://lh5.googleusercontent.com/UbHdgtZ1KmtloviYtJZWM_1Ie-_nO0JpNzEW3QrX4LELQ5xPNZEqPueLnfoXmNDKGND9CoMw7VkHRPMLoLNwe0DjZFjq_1wXcqTd17_4FjanhI3NLY0LV57ZrPRCdNC_lA=w1280",
-            "https://lh4.googleusercontent.com/Ll9C1FH25DfH6oxWgNOEo7lJocQV1TVlKdiDqiPTD_XNOVlyuM4RsiVQUAwY3Hngyb7ihukGPpU7Dke4TZkmDKX6s0ROM2Lgl8xSTcq3URoOjuf0z8U6MkViS7UtIh2C4g=w1280",
-            "https://lh4.googleusercontent.com/Ll9C1FH25DfH6oxWgNOEo7lJocQV1TVlKdiDqiPTD_XNOVlyuM4RsiVQUAwY3Hngyb7ihukGPpU7Dke4TZkmDKX6s0ROM2Lgl8xSTcq3URoOjuf0z8U6MkViS7UtIh2C4g=w1280",
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099355/vangoghmuseum-s0067V1962-800_sqfmi1.jpg",
+              title: "Registrar",
+              name: "Cedric Diggory",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099327/vangoghmuseum-s0068V1962v-800_c0kr9x.jpg",
+              title: "Dean of Engineering",
+              name: "Dr B M Rajprakash",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099347/vangoghmuseum-s0113V1962-800_zwr3t1.jpg",
+              title: "Finance Officer",
+              name: "Horace Slughorn",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099347/vangoghmuseum-s0113V1962-800_zwr3t1.jpg",
+              title: "Finance Officer",
+              name: "Severus Snape",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099355/vangoghmuseum-s0067V1962-800_sqfmi1.jpg",
+              title: "Controller of Examinations",
+              name: "Dr B P Harish",
+            },
+
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099382/vangoghmuseum-s0093V1962-800_rkhwip.jpg",
+              title: "Dy Controller of Examinations",
+              name: "Prof H S Veena",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099360/vangoghmuseum-s0061V1962-800_ayurad.jpg",
+              title: "Dy Controller of Examinations",
+              name: "Prof H S Veena",
+            },
           ]}
         />
+      </section>
+
+      <section className="last-section">
+        <h1>Staff</h1>
+        <div className="people_main">
+          <div className="right_item">
+            <img
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728099327/vangoghmuseum-s0068V1962v-800_c0kr9x.jpg"
+              alt=""
+            />
+            <h1>XY</h1>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728104256/vangoghmuseum-s0016V1962-800_bhvmdm.jpg"
+              alt=""
+            />
+            <h1>Afaq Sharif</h1>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728104262/vangoghmuseum-s0083V1962-800_qu3nav.jpg"
+              alt=""
+            />
+            <h1>XX</h1>
+          </div>
+          <div className="right_item">
+            <img
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728099355/vangoghmuseum-s0067V1962-800_sqfmi1.jpg"
+              alt=""
+            />
+            <h1>XY</h1>
+          </div>
+        </div>
       </section>
     </>
   );

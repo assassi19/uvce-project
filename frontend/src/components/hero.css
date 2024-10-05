@@ -23,12 +23,14 @@
 }
 
 .HeroSection div h1 {
-  text-align: center;
+  max-width: max-content;
+  margin: auto;
   padding-bottom: 1.5rem;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 600;
   color: white;
-  border-bottom: 10px solid tan;
+  border-bottom: 8px solid tan;
+  font-family: "Inconsolata", monospace;
 }
 
 .HeroSection div p {
@@ -37,4 +39,12 @@
   font-size: 25px;
   font-weight: 600;
   color: white;
+  font-family: "Inconsolata", monospace;
+}
+
+@media (max-width: 768px) {
+  .HeroSection div p {
+    max-width: 90%;
+    margin: auto;
+  }
 }

@@ -19,7 +19,7 @@ const Home = () => {
         <div className="home_main">
           <div className="left_part">
             <img
-              src="../../public/images/home_1.jpg"
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728099293/vangoghmuseum-s0144V1962-800_wbyjan.jpg"
               alt="image1"
               className="home-section-imageclass"
             />
@@ -44,7 +44,10 @@ const Home = () => {
               substantial progress for the welfare of the society throughout the
               world.
             </p>
-            <img src="../../public/images/home_2.jpg" alt="image2" />
+            <img
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728099310/Screenshot_2024-09-27_131916_r276nx.png"
+              alt="image2"
+            />
           </div>
         </div>
       </section>

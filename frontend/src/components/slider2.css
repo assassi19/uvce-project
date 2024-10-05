@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -16,4 +18,31 @@
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.slide-image {
+  position: relative;
+}
+
+.card h4 {
+  color: white;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.card h5 {
+  color: white;
+  position: absolute;
+  bottom: 0.8rem;
+  left: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    height: 70%;
+    padding-bottom: 3rem;
+  }
 }
