@@ -10,7 +10,7 @@ import "./slider.css";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-export default function Slider({ dataURLS }) {
+export default function Slider({ dataURLS, heading }) {
   return (
     <>
       <Swiper

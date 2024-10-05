@@ -1,0 +1,51 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.7);
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.slide_images {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.slide_images:hover {
+  scale: 1.2;
+  transition: 0.2s linear;
+}
+
+.slide-content {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slide-content h4 {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 1.5rem;
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+
+.slide-content h5 {
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  color: white;
+  font-family: "Inconsolata", monospace;
+}

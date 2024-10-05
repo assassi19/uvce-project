@@ -1,7 +1,6 @@
 import React from "react";
 import Hero from "./hero";
 import "./home.css";
-import Slider from "./slider";
 
 const Home = () => {
   return (
@@ -19,7 +18,7 @@ const Home = () => {
         <div className="home_main">
           <div className="left_part">
             <img
-              src="https://res.cloudinary.com/duozomapm/image/upload/v1728099293/vangoghmuseum-s0144V1962-800_wbyjan.jpg"
+              src="https://res.cloudinary.com/duozomapm/image/upload/v1728125228/vangoghmuseum-s0020V1962-800_z0099q.jpg"
               alt="image1"
               className="home-section-imageclass"
             />
@@ -44,6 +43,7 @@ const Home = () => {
               substantial progress for the welfare of the society throughout the
               world.
             </p>
+
             <img
               src="https://res.cloudinary.com/duozomapm/image/upload/v1728099310/Screenshot_2024-09-27_131916_r276nx.png"
               alt="image2"
@@ -51,42 +51,40 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="thirdsection">
-        <h3>Announcements / seminars / workshops</h3>
-        <div className="home_main">
-          <Slider
-            dataURLS={[
-              "https://lh6.googleusercontent.com/B1Z9D7IA29-jfcjbpkuTLIaYG9uD2bgMhUQwmLG9qEy-mQ4QZFI2_0JYM36J6MDeV1og54eXsj1vytYNFv44biE=w16383",
-              "https://lh5.googleusercontent.com/LHOiETb5tx8JNaKUL-Nsreoq_JgBU4l12xHk4rPHZm3kC53efgPCXf-vM2xv189tU-SPyXb0mLSSLzzf6ZV_nvY=w16383",
-              "https://lh5.googleusercontent.com/24LHOR4l4vAdNOySFJVEZq8kBEMV6sby3guVvtUmNHKsX68ucZ-H-D8IrLoCiqy41NHcCUXWO5gWeHCAaZbpq7E=w16383",
-            ]}
-          />
 
-          <Slider
-            dataURLS={[
-              "https://lh3.googleusercontent.com/9Y7SnnHWM0sWWir3tjNYv_osRcOy9qlcA7eQoAHA0yyhnJ8ZlUZrFEUach_3b6kmwqelEPNg7DbPXKv6gcBsOeQ=w16383",
-              "https://lh4.googleusercontent.com/0gShb4Jit3AK9TPupFJSpMcz39No37IMfXnAgtiTkHA0qmyOtf5IBlxxu9sXifYC0PPcrzlXEAZJETro5SY6SWA=w16383",
-              "https://lh4.googleusercontent.com/1BsdCcSxvCPzy5GLKkbPjIO0Miq8CoeU2Q7nCvZGJ_y4KyXhVhyuOYAIiZIL4-BCF_VPUCx9EcuEaydTK09jzq0=w16383&quot",
-            ]}
-          />
-        </div>
+      <section>
+        <div className="home_main"></div>
       </section>
-      <section className="fourthsection">
+      {/* <section className="fourthsection">
         <h3>Highlights</h3>
         <div className="home_main borders">
-          <Slider
-            dataURLS={[
-              "https://lh4.googleusercontent.com/AAhdpx3AwAk0NE99cee709m4OqqyaYgYE1qEZyf1b6K_cLH3B0-lF3De87cY1NDRwT0l5JkjyfHl2vmtiyrLqdA=w16383",
-              "https://lh4.googleusercontent.com/RPpWcfa0usfprCGSYs9UD9hQ0PcWliW_wpBUF4Yf-YGmOQrxXTGslwagigz1NPlRLFGHsjLn05qEUVaasSRdJxU=w16383",
-              "https://lh3.googleusercontent.com/MCp6y-9WeGpqY6aIOLMNNrs79bOt5a_3T4dxcj2MUI0Jm3jpjECJqkgPceRk7bhKq7N2973jnhs6b-7jfPZx0rE=w16383",
-              "https://lh3.googleusercontent.com/-WALBSswKyyMxkpVEhqMXzcDCJqiLNw3CHW198EuqcpbHXMbutCsNdKUv4GgSvIm1nwFdG7c-qHEBRDXOrWqGco=w16383",
-              "https://lh6.googleusercontent.com/onL298EQzz-y12GnbPjHzGYwD8jIlYHoyYlFMA_2DCLMAG1O9egFzjKNY7dcn7MN_Tlwzvavf9R8lhh680P-lZY=w16383",
-              "https://lh5.googleusercontent.com/SK74PCwMv42zkrCFLLUX6qQv0YC5UgSR1fTVerBINMDq_GNCFi4WGtCCh5o_Hd1s_WqP-Vg15bECTAG7abM5hIg=w16383",
-              "https://lh4.googleusercontent.com/jfN1sS5-SIvP92NZnMxClfg648mB5O79hj6ijtAg-HoMWxibn8RDl03-HMYJGrLamAHnT_XkWuz3MPm0iQqT1HM=w16383",
+          <Slider2
+            slides={[
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123552/vangoghmuseum-d0420V1962-800_pdckmr.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123644/vangoghmuseum-s0105V1962-800_wwerrm.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123578/vangoghmuseum-s0047V1962-800_gnefn4.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123585/vangoghmuseum-s0032V1962-800_sffk94.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123608/vangoghmuseum-s0195V1962-800_cgu0zn.jpg",
+              },
+              {
+                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
+              },
             ]}
           />
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

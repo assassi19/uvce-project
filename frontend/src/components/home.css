@@ -5,9 +5,14 @@ section {
 .home_main {
   max-width: 80%;
   padding-top: 2rem;
+  padding-bottom: 3rem;
   margin: auto;
   display: flex;
   gap: 3rem;
+}
+
+.home_main > * {
+  flex-basis: 100%;
 }
 
 .home_main .left_part {

@@ -38,22 +38,6 @@
   width: max-content;
 }
 
-/* .people_main .right_item h4,
-.people_main .left_item h4 {
-  text-align: center;
-  color: gray;
-  line-height: 1.5rem;
-  font-weight: 600;
-} */
-/* 
-.people_main .left_item h3,
-.people_main .right_item h3 {
-  text-align: center;
-  color: gray;
-  line-height: 1.5rem;
-  font-weight: 800;
-} */
-
 .people-first-section .people_main img {
   width: 50%;
   height: 50%;
@@ -63,13 +47,6 @@
   scale: 1.1;
   transition: 0.2s ease;
 }
-
-/* .last-section h3 {
-  text-align: center;
-  color: gray;
-  font-weight: 800;
-  font-size: 25px;
-} */
 
 .people-first-section {
   padding-top: 2rem;
@@ -86,6 +63,11 @@
   height: 30%;
   padding-inline: 3rem;
   padding-bottom: 2rem;
+}
+
+.first-section img:hover {
+  scale: 1.05;
+  transition: 0.2s linear;
 }
 
 .text_content h3 {
