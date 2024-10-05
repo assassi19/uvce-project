@@ -1,0 +1,17 @@
+.place-section {
+  padding-top: 4rem;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.place-section > * {
+  flex-basis: 100%;
+}
+
+@media (max-width: 768px) {
+  .place-section {
+    flex-direction: column;
+  }
+}

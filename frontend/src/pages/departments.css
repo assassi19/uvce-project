@@ -8,6 +8,10 @@
   gap: 2rem;
 }
 
+.depart-sec-3 > * {
+  flex-basis: 100%;
+}
+
 .sec {
   border-radius: 10px;
   overflow: hidden;

@@ -10,7 +10,7 @@ import "./slider.css";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-export default function Slider({ dataURLS, heading }) {
+export default function Slider({ dataURLS }) {
   return (
     <>
       <Swiper
@@ -19,6 +19,7 @@ export default function Slider({ dataURLS, heading }) {
         pagination={true}
         mousewheel={true}
         keyboard={true}
+        loop={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >

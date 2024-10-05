@@ -1,0 +1,50 @@
+.library-section {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.carousel-section {
+  max-width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-section h3 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 1rem;
+}
+
+.library-section > * {
+  flex-basis: 100%;
+}
+
+.search-section p {
+  padding-block: 2rem;
+  font-family: "Inconsolata", monospace;
+}
+.search-section h3,
+.search-section span {
+  font-family: "Inconsolata", monospace;
+}
+
+.library-section-2 h3 {
+  text-align: center;
+  color: gray;
+  font-weight: 800;
+  margin-block: 2rem;
+}
+
+@media (max-width: 768px) {
+  .library-section {
+    flex-direction: column;
+  }
+
+  .carousel-section {
+    max-width: 100%;
+  }
+}
