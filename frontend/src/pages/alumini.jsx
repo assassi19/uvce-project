@@ -9,7 +9,9 @@ const Alumini = () => {
   return (
     <>
       <Hero
-        imageURL={"../../public/images/alumini.jpg"}
+        imageURL={
+          "https://res.cloudinary.com/duozomapm/image/upload/v1728123608/vangoghmuseum-s0195V1962-800_cgu0zn.jpg"
+        }
         data={{
           title: "Alumini",
           subtitle: "",

@@ -13,6 +13,7 @@ const Hero = ({ imageURL, data }) => {
       <div>
         <h1>{data.title || "U V C E"}</h1>
         <p>{data.subtitle || ""}</p>
+        <p>{data.subtitle_2 || ""}</p>
       </div>
     </section>
   );

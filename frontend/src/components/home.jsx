@@ -1,6 +1,8 @@
 import React from "react";
 import Hero from "./hero";
 import "./home.css";
+import Slider from "./slider";
+import Slider3 from "./slider3";
 
 const Home = () => {
   return (
@@ -53,38 +55,73 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="home_main"></div>
-      </section>
-      {/* <section className="fourthsection">
-        <h3>Highlights</h3>
-        <div className="home_main borders">
-          <Slider2
-            slides={[
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123552/vangoghmuseum-d0420V1962-800_pdckmr.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123644/vangoghmuseum-s0105V1962-800_wwerrm.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123578/vangoghmuseum-s0047V1962-800_gnefn4.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123585/vangoghmuseum-s0032V1962-800_sffk94.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123608/vangoghmuseum-s0195V1962-800_cgu0zn.jpg",
-              },
-              {
-                url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
-              },
-            ]}
-          />
+        <div className="home-section">
+          <div className="home-carousel-section">
+            <h3>Announcements</h3>
+            <Slider
+              dataURLS={[
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728123552/vangoghmuseum-d0420V1962-800_pdckmr.jpg",
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg",
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728125218/vangoghmuseum-s0202V1962-800_gccwd1.jpg",
+              ]}
+            />
+          </div>
+          <div className="home-carousel-section">
+            <h3>workshops / seminars</h3>
+            <Slider
+              dataURLS={[
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728188542/vangoghmuseum-s0104V1962-800_klzfxe.jpg",
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728188556/vangoghmuseum-s0038V1962-800_bu4vsc.jpg",
+                "https://res.cloudinary.com/duozomapm/image/upload/v1728042782/vangoghmuseum-s0106V1962-800_xl7try.jpg",
+              ]}
+            />
+          </div>
         </div>
-      </section> */}
+      </section>
+
+      <section className="home-last-section">
+        <h3>Highlights</h3>
+        <Slider3
+          slides={[
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
+              title: "",
+              name: "",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123552/vangoghmuseum-d0420V1962-800_pdckmr.jpg",
+              title: "",
+              name: "",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123644/vangoghmuseum-s0105V1962-800_wwerrm.jpg",
+              title: "",
+              name: "",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123578/vangoghmuseum-s0047V1962-800_gnefn4.jpg",
+              title: "",
+              name: "",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123585/vangoghmuseum-s0032V1962-800_sffk94.jpg",
+              title: "",
+              name: "",
+            },
+
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123608/vangoghmuseum-s0195V1962-800_cgu0zn.jpg",
+              title: "",
+              name: "",
+            },
+            {
+              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728123631/vangoghmuseum-s0055V1962-800_oqy5hq.jpg",
+              title: "",
+              name: "",
+            },
+          ]}
+        />
+      </section>
     </>
   );
 };

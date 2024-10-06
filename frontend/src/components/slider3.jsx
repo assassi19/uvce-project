@@ -39,7 +39,7 @@ export default function Slider3({ slides }) {
           <SwiperSlide className="slide-content">
             <img src={slide.url} className="slide_images" />
             <h5>{slide.name || ""}</h5>
-            <h4>{slide.title || ""}</h4>
+            <h4 style={{ maxWidth: "80%" }}>{slide.title || ""}</h4>
           </SwiperSlide>
         ))}
       </Swiper>
