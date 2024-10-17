@@ -167,4 +167,15 @@
   .event-contents .event-marker .events-details {
     flex-basis: 150%;
   }
+
+  .event-contents .event-marker .events-details .event-title {
+    font-size: 20px;
+  }
+
+  .event-contents .event-marker .events-details .event-time {
+    font-size: 17px;
+  }
+  .event-contents .event-marker .events-details .event-para {
+    font-size: 15px;
+  }
 }
