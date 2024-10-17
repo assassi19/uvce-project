@@ -164,4 +164,7 @@
     row-gap: 1rem;
     max-width: 100%;
   }
+  .event-contents .event-marker .events-details {
+    flex-basis: 150%;
+  }
 }
