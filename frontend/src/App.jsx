@@ -13,6 +13,10 @@ import Alumini from "./pages/alumini";
 import Careers from "./pages/careers";
 import Notifications from "./pages/notifications";
 import Placements from "./pages/placements";
+import History from "./subpages/history";
+import PeopleBlog from "./subpages/people-blog";
+import DepartmentBlog from "./subpages/department-blog";
+import Blog from "./subpages/blog";
 
 const App = () => {
   return (
@@ -20,9 +24,12 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/history" element={<History />} />
         <Route path="/people" element={<People />} />
+        <Route path="/people/blog" element={<PeopleBlog />} />
         <Route path="/research" element={<Research />} />
         <Route path="/departments" element={<Departments />} />
+        <Route path="/departments/blog" element={<DepartmentBlog />} />
         <Route path="/students" element={<Students />} />
         <Route path="placements" element={<Placements />} />
         <Route path="/library" element={<Library />} />
@@ -30,6 +37,7 @@ const App = () => {
         <Route path="/careers" element={<Careers />} />
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/about" element={<About />} />
+        <Route path="/events/:id" element={<Blog />} />
       </Routes>
     </Router>
   );

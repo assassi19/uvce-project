@@ -63,7 +63,8 @@ section {
 }
 
 .home-carousel-section h3,
-.home-last-section h3 {
+.home-last-section h3,
+.calender-section h3 {
   color: gray;
   font-weight: 800;
   text-align: center;
@@ -80,6 +81,12 @@ section {
   margin-bottom: 2rem;
 }
 
+.calender-section {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 768px) {
   .home_main {
     flex-direction: column;
@@ -91,5 +98,9 @@ section {
   }
   .home-carousel-section {
     max-width: 100%;
+  }
+  .calender-section {
+    max-width: 95%;
+    margin: auto;
   }
 }

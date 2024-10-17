@@ -1,0 +1,166 @@
+.react-calendar-section {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5rem;
+  margin-top: 2rem;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+/* dates colour */
+
+.event-date {
+  background-color: rgba(144, 238, 144, 0.5);
+}
+
+.active-date {
+  background-color: #0044ccc3;
+  color: #fff;
+}
+
+.today-date {
+  background: #0044ccc3;
+  color: white;
+}
+
+.future-date {
+  background-color: white;
+  color: black;
+}
+
+.past-date {
+  background-color: #d3d3d392;
+  color: #808080;
+}
+
+/* dates circles */
+
+.data-circle {
+  margin-top: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.past-circle {
+  background-color: gray;
+}
+
+.today-circle {
+  background-color: red;
+}
+
+.future-circle {
+  background-color: white;
+}
+
+/* Weekdays section */
+
+.react-calendar__month-view__days > button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.react-calendar__month-view__days > button > abbr {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: rgba(255, 0, 0, 0.537);
+}
+
+.react-calendar__month-view__weekdays > div {
+  background-color: darkblue;
+  border-right: 2px solid rgba(255, 255, 255, 0.9);
+  color: #fff;
+}
+
+/* Events Section */
+
+.event-day {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.event-contents {
+  padding: 1rem;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.event-contents .event-marker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 7px solid rgba(128, 128, 128, 0.429);
+}
+
+.event-contents .event-marker .events-details {
+  flex-basis: 300%;
+}
+
+.event-contents .event-marker .events-details .event-title {
+  font-weight: 900;
+  color: rgba(0, 0, 255, 0.642);
+  font-family: "Inconsolata", monospace;
+}
+
+.event-contents .event-marker .events-details .event-title:hover {
+  text-decoration: underline;
+}
+
+.event-contents .event-marker .events-details .event-time {
+  margin-block: 1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.event-contents .event-marker .events-details .event-para {
+  padding-bottom: 1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.event-contents .event-marker .events-image {
+  flex-basis: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.event-contents .event-marker .events-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.event-contents .event-marker .events-image img:hover {
+  scale: 1.1;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 450px) {
+  .react-calendar-section {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}

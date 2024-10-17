@@ -3,6 +3,7 @@ import Hero from "./hero";
 import "./home.css";
 import Slider from "./slider";
 import Slider3 from "./slider3";
+import CustomCalender from "../subpages/calender";
 
 const Home = () => {
   return (
@@ -121,6 +122,11 @@ const Home = () => {
             },
           ]}
         />
+      </section>
+
+      <section className="calender-section">
+        <h3>Events</h3>
+        <CustomCalender />
       </section>
     </>
   );

@@ -41,49 +41,6 @@ const People = () => {
           </div>
         </div>
       </section>
-      {/* 
-      <section className="last-section">
-        <Slider2
-          slides={[
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099355/vangoghmuseum-s0067V1962-800_sqfmi1.jpg",
-              title: "Registrar",
-              name: "Cedric Diggory",
-            },
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099327/vangoghmuseum-s0068V1962v-800_c0kr9x.jpg",
-              title: "Dean of Engineering",
-              name: "Dr B M Rajprakash",
-            },
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099347/vangoghmuseum-s0113V1962-800_zwr3t1.jpg",
-              title: "Finance Officer",
-              name: "Horace Slughorn",
-            },
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099347/vangoghmuseum-s0113V1962-800_zwr3t1.jpg",
-              title: "Finance Officer",
-              name: "Severus Snape",
-            },
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099355/vangoghmuseum-s0067V1962-800_sqfmi1.jpg",
-              title: "Controller of Examinations",
-              name: "Dr B P Harish",
-            },
-
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099382/vangoghmuseum-s0093V1962-800_rkhwip.jpg",
-              title: "Dy Controller of Examinations",
-              name: "Prof H S Veena",
-            },
-            {
-              url: "https://res.cloudinary.com/duozomapm/image/upload/v1728099360/vangoghmuseum-s0061V1962-800_ayurad.jpg",
-              title: "Dy Controller of Examinations",
-              name: "Prof H S Veena",
-            },
-          ]}
-        />
-      </section> */}
 
       <section>
         <Slider3
