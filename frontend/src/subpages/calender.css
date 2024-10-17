@@ -161,6 +161,7 @@
 @media (max-width: 450px) {
   .react-calendar-section {
     flex-direction: column;
+    row-gap: 1rem;
     max-width: 100%;
   }
 }

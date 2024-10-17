@@ -35,8 +35,8 @@ export default function Slider3({ slides }) {
         modules={[EffectCoverflow]}
         className="mySwiper"
       >
-        {slides.map((slide) => (
-          <SwiperSlide className="slide-content">
+        {slides.map((slide, index) => (
+          <SwiperSlide className="slide-content" key={index}>
             <img src={slide.url} className="slide_images" />
             <h5>{slide.name || ""}</h5>
             <h4 style={{ maxWidth: "80%" }}>{slide.title || ""}</h4>
