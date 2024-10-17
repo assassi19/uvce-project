@@ -133,6 +133,9 @@ section {
     max-width: 90%;
     margin: auto;
   }
+}
+
+@media (max-width: 468px) {
   .map-section {
     padding-top: 1rem;
     flex-direction: column;

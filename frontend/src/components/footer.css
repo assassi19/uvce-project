@@ -1,0 +1,108 @@
+.footer-section {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* 1 section */
+.footer-sec-1 {
+  display: flex;
+  justify-content: center;
+  column-gap: 4rem;
+  padding: 1rem 10rem 0rem 10rem;
+}
+
+.footer-sec-1 .footer-heading {
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 2px;
+  padding-block: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-sec-1 > * {
+  flex-basis: 100%;
+}
+
+.footer-1-para {
+  font-family: "Inconsolata", monospace;
+  line-height: 1.5rem;
+}
+
+.footer-2-lists li,
+.footer-3-navlink {
+  margin-top: 1rem;
+}
+
+.footer-2-lists li::marker {
+  color: gray;
+}
+
+.footer-2-lists li > *,
+.footer-3-navlink > * {
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-2-lists li > *:hover,
+.footer-3-navlink > *:hover {
+  text-decoration: underline;
+}
+
+.footer-3-details p {
+  margin-top: 0.5rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.footer-3-span {
+  color: gray;
+  margin-left: 0.5rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.footer-3-span:hover {
+  text-decoration: underline;
+}
+
+/* 2 section */
+.footer-sec-2 {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-block: 1rem;
+  border-block: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-sec-2 p {
+  text-align: center;
+  color: gray;
+  font-family: "Inconsolata", monospace;
+}
+
+.footer-sec-2 p span {
+  margin-left: 0.5rem;
+  color: rgba(0, 115, 255, 0.668);
+}
+
+.footer-sec-2 p span:hover {
+  text-decoration: underline;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+  .footer-sec-1 {
+    padding: 1rem 2rem 0rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-sec-1 {
+    flex-direction: column;
+    padding: 1rem 2rem 0rem 2rem;
+    column-gap: 0rem;
+    row-gap: 2rem;
+  }
+  .footer-sec-2 p {
+    font-size: 13px;
+  }
+}

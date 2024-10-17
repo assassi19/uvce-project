@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import About from "./pages/about";
@@ -17,6 +16,7 @@ import History from "./subpages/history";
 import PeopleBlog from "./subpages/people-blog";
 import DepartmentBlog from "./subpages/department-blog";
 import Blog from "./subpages/blog";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -39,6 +39,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/events/:id" element={<Blog />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
