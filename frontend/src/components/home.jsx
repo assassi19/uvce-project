@@ -128,6 +128,31 @@ const Home = () => {
         <h3>Events</h3>
         <CustomCalender />
       </section>
+
+      <section className="map-section">
+        <div className="map-1">
+          <address>K R Circle Campus</address>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.937581784621!2d77.58457707484142!3d12.975844087339901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1672fafd4f1b%3A0x100af20618f6f9fa!2sKR%20Circle%2C%20Ambedkar%20Veedhi%2C%20Bengaluru%2C%20Karnataka%20560001!5e0!3m2!1sen!2sin!4v1729150633358!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div className="map-2">
+          <address>Jnanabharati Campus</address>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.435147175562!2d77.50205397484083!3d12.94398378736885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f245cc4325d%3A0x6e5eaf3655eef1b6!2sJnanabharati%20Campus%20Bengaluru%20University!5e0!3m2!1sen!2sin!4v1729151044942!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </>
   );
 };
