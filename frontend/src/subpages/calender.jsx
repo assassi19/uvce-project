@@ -74,7 +74,7 @@ const events = {
     },
   ],
 
-  "2024-10-28": [
+  "2024-10-21": [
     {
       id: "1",
       title: "Whisky Unscripted",

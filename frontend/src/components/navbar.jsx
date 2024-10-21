@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { IoSearchSharp } from "react-icons/io5";
+import { FaAngleDown } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 
 const Navbar = () => {
@@ -11,6 +12,7 @@ const Navbar = () => {
     <>
       <nav>
         <input type="checkbox" id="click" />
+
         <label htmlFor="click" className="hamburger">
           <GiHamburgerMenu />
         </label>
@@ -36,8 +38,34 @@ const Navbar = () => {
           <li>
             <NavLink to="/research">Research</NavLink>
           </li>
-          <li>
-            <NavLink to="/departments">Departments</NavLink>
+          <li className="dropdown">
+            <span className="dropdown-list">
+              <NavLink to="/departments">Departments</NavLink>
+
+              <label>
+                <FaAngleDown />
+              </label>
+            </span>
+            <ul>
+              <li>
+                <a href="">CSE</a>
+              </li>
+              <li>
+                <a href="">CSE</a>
+              </li>
+              <li>
+                <a href="">CSE</a>
+              </li>
+              <li>
+                <a href="">CSE</a>
+              </li>
+              <li>
+                <a href="">CSE</a>
+              </li>
+              <li>
+                <a href="">CSE</a>
+              </li>
+            </ul>
           </li>
           <li>
             <NavLink to="/students">Students</NavLink>

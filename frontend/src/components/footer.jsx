@@ -15,7 +15,7 @@ const Footer = () => {
             engineering courses - Electronics and Communication, Electrical and
             Electronics, Mechanical, Computer Science, Information Science,
             Artificial Intelligence and Civil Engineering apart from
-            Architecture
+            Architecture.
           </p>
         </div>
         <div className="footer-2">
