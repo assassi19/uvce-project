@@ -35,61 +35,65 @@ const Navbar = () => {
           <li>
             <NavLink to="/people">People</NavLink>
           </li>
-          <li>
-            <NavLink to="/research">Research</NavLink>
-          </li>
           <li className="dropdown">
-            <span className="dropdown-list">
-              <NavLink to="/departments">Departments</NavLink>
-
-              <label>
-                <FaAngleDown />
-              </label>
-            </span>
+            <NavLink to="/departments">Departments ▼</NavLink>
             <ul>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of civil</a>
               </li>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of Mech</a>
               </li>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of EEE</a>
               </li>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of ECE</a>
               </li>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of CSE</a>
               </li>
               <li>
-                <a href="">CSE</a>
+                <a href="">Department of Arch</a>
               </li>
             </ul>
+          </li>
+          <li>
+            <NavLink to="/academics">Academics</NavLink>
+          </li>
+          <li>
+            <NavLink to="/students">Faculty</NavLink>
           </li>
           <li>
             <NavLink to="/students">Students</NavLink>
           </li>
           <li>
-            <NavLink to="/placements">Placements</NavLink>
-          </li>
-          <li>
-            <NavLink to="/library">Library</NavLink>
-          </li>
-          <li>
-            <NavLink to="/alumini">Alumini</NavLink>
-          </li>
-          <li>
-            <NavLink to="/careers">Careers</NavLink>
+            <NavLink to="/students">
+              Facilities and &nbsp;&nbsp;Infrastructure
+            </NavLink>
           </li>
           <li>
             <NavLink to="/notifications">Notifications</NavLink>
           </li>
-          <li>
-            <NavLink to="/about">SEB UVCE</NavLink>
-          </li>
-          <li>
-            <IoSearchSharp className="search-icon" />
+          <li className="dropdown">
+            <NavLink to="/">More ▼</NavLink>
+            <ul>
+              <li>
+                <NavLink to="/library">Library</NavLink>
+              </li>
+              <li>
+                <NavLink to="/placements">Placements</NavLink>
+              </li>
+              <li>
+                <NavLink to="/alumini">Alumini</NavLink>
+              </li>
+              <li>
+                <NavLink to="/careers">Careers</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">RTI</NavLink>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
@@ -98,3 +102,11 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{
+  /* 
+<li>
+<IoSearchSharp className="search-icon" />
+</li>
+</ul> */
+}
