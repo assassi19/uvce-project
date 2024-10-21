@@ -72,7 +72,7 @@ nav > ul > li > a.active {
 
 .hamburger,
 .cancel {
-  color: white;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 25px;
   display: none;
   cursor: pointer;
@@ -91,7 +91,7 @@ nav > ul > li > a.active {
 }
 
 .dropdown:hover ul {
-  max-height: max-content;
+  max-height: 220px;
   opacity: 1;
 }
 
