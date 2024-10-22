@@ -18,7 +18,7 @@ import DepartmentBlog from "./subpages/department-blog";
 import Blog from "./subpages/blog";
 import Civil from "./departments/civil";
 import Mech from "./departments/mech";
-import CSE from "./departments/cse";
+import CSE from "./departments/CSE";
 import EEE from "./departments/EEE";
 import ECE from "./departments/ECE";
 import Arch from "./departments/Arch";
