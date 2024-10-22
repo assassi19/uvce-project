@@ -96,7 +96,7 @@ nav > ul > li > a.active {
 }
 
 .dropdown:hover ul {
-  max-height: 220px;
+  max-height: max-content;
   opacity: 1;
 }
 
@@ -109,13 +109,26 @@ nav > ul > li > a.active {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.dropdown > ul > li > a:hover {
+.dropdown > ul > li > a:hover,
+.sub-dropdown > ul > li > a:hover {
   color: rgba(0, 0, 0, 1);
 }
 
 .dropdown label {
   cursor: pointer;
   vertical-align: middle;
+}
+
+.sub-dropdown > ul > li {
+  list-style: none;
+}
+
+.sub-dropdown > ul {
+  display: none;
+}
+
+.sub-dropdown:hover ul {
+  display: block;
 }
 
 @media (min-width: 1280px) {
@@ -194,7 +207,8 @@ nav > ul > li > a.active {
 
   nav > ul > li > a,
   .dropdown > ul > li > a,
-  .dropdown-list a {
+  .dropdown-list a,
+  .sub-dropdown > ul > li > a {
     border-radius: 0 15px;
     transition: 0.4s ease;
     color: rgba(220, 220, 220, 0.5);

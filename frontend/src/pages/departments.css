@@ -1,5 +1,4 @@
 .depart-sec-3,
-.depart-sec-2,
 .depart-sec-1 {
   max-width: 80%;
   padding-top: 4rem;
@@ -22,7 +21,7 @@
 .sec h3 {
   position: absolute;
   bottom: 2rem;
-  left: 2rem;
+  left: 1.2rem;
   color: white;
   font-family: "Inconsolata", monospace;
   font-size: 25px;
@@ -45,7 +44,6 @@
 
 @media (max-width: 768px) {
   .depart-sec-3,
-  .depart-sec-2,
   .depart-sec-1 {
     flex-direction: column;
   }

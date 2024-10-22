@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Hero from "../components/hero";
 import "./departments.css";
 
@@ -31,8 +32,6 @@ const Departments = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="depart-sec-2">
           <div className="sec">
             <h3>Dept of Electronics and Communications</h3>
             <img
@@ -40,6 +39,9 @@ const Departments = () => {
               alt=""
             />
           </div>
+        </div>
+
+        <div className="depart-sec-3">
           <div className="sec">
             <h3>Dept of Mechanical Engineering</h3>
             <img
@@ -47,8 +49,6 @@ const Departments = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="depart-sec-3">
           <div className="sec">
             <h3>Dept of Civil Engineering</h3>
             <img
