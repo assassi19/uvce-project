@@ -62,3 +62,14 @@
   color: white;
   font-weight: 700;
 }
+
+@media (max-width: 450px) {
+  .Faculty-sec {
+    flex-direction: column;
+  }
+
+  .faculty-content h2,
+  .faculty-content h3 {
+    text-align: center;
+  }
+}
