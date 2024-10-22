@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className=".about-main-section">
+      <section className="about-main-section">
         <div className="reasearch-section">
           <div className="first_ele research_main">
             <h3>Industremia</h3>

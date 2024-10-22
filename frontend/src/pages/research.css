@@ -1,5 +1,6 @@
 .reasearch-section {
   max-width: 80%;
+
   margin: auto;
   padding-top: 3rem;
   display: grid;
@@ -79,5 +80,11 @@
 
   .last_image {
     max-width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reasearch-section {
+    max-height: 75vh;
   }
 }

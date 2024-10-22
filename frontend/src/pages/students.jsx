@@ -32,8 +32,6 @@ const Students = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="depart-sec-2">
           <div className="sec">
             <h3>R&D Activities</h3>
             <img
@@ -41,6 +39,9 @@ const Students = () => {
               alt=""
             />
           </div>
+        </div>
+
+        <div className="depart-sec-3">
           <div className="sec">
             <h3>Student Clubs and Associations</h3>
             <img
@@ -48,8 +49,6 @@ const Students = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="depart-sec-3">
           <div className="sec">
             <h3>Competitions & Hackathons</h3>
             <img

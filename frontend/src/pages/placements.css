@@ -15,3 +15,12 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 1024px) {
+  .place-section {
+    max-height: 50vh;
+  }
+  .placement-sec-2 {
+    max-height: 70vh;
+  }
+}

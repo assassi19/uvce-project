@@ -53,7 +53,7 @@ const Placements = () => {
       </section>
 
       <section>
-        <div className="depart-sec-3">
+        <div className="depart-sec-3 placement-sec-2">
           <div className="sec">
             <h3>Recruiters' Corner</h3>
             <img
