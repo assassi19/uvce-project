@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="footer-sec-2">
         <p>
           © UVCE 2024-2025 - All rights reserved | Designed and Developed by
-          <span>Hruthik M</span>
+          <span>SEB</span>
         </p>
       </div>
     </footer>
